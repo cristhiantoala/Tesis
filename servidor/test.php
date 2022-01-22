@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$database = "tesisb";
+$database = "tesis";
 $username = "root";
 $password = "";
 // Create connection
