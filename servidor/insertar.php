@@ -23,6 +23,7 @@ $res 	= $_POST['respuestas'];
 		$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('coorddfgdfgdfgdfgdfgenadas','tecladfgdfgdfgs','regfdgdfgs')";
 		echo $query;
 		echo "ccccccccccccc";
+		echo $dbConn;
 		$result = mysqli_query($dbConn,$query);
 		echo "aaaaaaaaaaaa";
 		echo $result;
