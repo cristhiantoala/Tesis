@@ -6,6 +6,7 @@ require_once 'conexion.php';
 
 // obtengo puntero de conexion con la db
 $dbConn = conectar();
+echo $dbConn;
 // agregamos una noticia en la db
 // si se envio el formulario
 
@@ -21,12 +22,11 @@ $res 	= $_POST['respuestas'];
 		// inserto los datos de registro en la db
 		//$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('$coordenadas','$teclas','$res')";
 		$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('coorddfgdfgdfgdfgdfgenadas','tecladfgdfgdfgs','regfdgdfgs')";
-		echo $query;
-		echo "ccccccccccccc";
-		echo $dbConn;
+
+		
 		$result = mysqli_query($dbConn,$query);
 		echo "aaaaaaaaaaaa";
-		echo $result;
+		die;
 		/*$query  = "INSERT INTO `data` (teclado) VALUES ('$teclas')";
 		$result = mysqli_query($dbConn,$query);
 		$query  = "INSERT INTO `data` (emocion) VALUES ('$res')";
