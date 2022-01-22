@@ -8,19 +8,20 @@ require_once 'conexion.php';
 $dbConn = conectar();
 // agregamos una noticia en la db
 // si se envio el formulario
-echo "hola1";
+
 
 	// definimos las variables
 $coordenadas 	= $_POST['coordenadas'];
 $teclas 		= $_POST['tecla'];
 $res 	= $_POST['respuestas'];
 	
-echo $teclas;	
+
 
 	// si no hay errores registramos al noticia
 		// inserto los datos de registro en la db
 		//$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('$coordenadas','$teclas','$res')";
 		$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('coorddfgdfgdfgdfgdfgenadas','tecladfgdfgdfgs','regfdgdfgs')";
+		echo $query;
 		$result = mysqli_query($dbConn,$query);
 		/*$query  = "INSERT INTO `data` (teclado) VALUES ('$teclas')";
 		$result = mysqli_query($dbConn,$query);
