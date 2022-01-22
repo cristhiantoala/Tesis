@@ -22,7 +22,7 @@ $res 	= $_POST['respuestas'];
 		// inserto los datos de registro en la db
 		//$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('$coordenadas','$teclas','$res')";
 		$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('coorddfgdfgdfgdfgdfgenadas','tecladfgdfgdfgs','regfdgdfgs')";
-
+		echo "hola";
 		
 		$result = mysqli_query($dbConn,$query);
 		echo "aaaaaaaaaaaa";
