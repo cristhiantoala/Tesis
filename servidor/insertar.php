@@ -8,7 +8,8 @@ require_once 'conexion.php';
 $dbConn = conectar();
 // agregamos una noticia en la db
 // si se envio el formulario
-
+echo "hola1";
+die;
 	// definimos las variables
 $coordenadas 	= $_POST['coordenadas'];
 $teclas 		= $_POST['tecla'];
