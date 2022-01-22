@@ -16,10 +16,11 @@ $teclas 		= $_POST['tecla'];
 $res 	= $_POST['respuestas'];
 	
 echo $teclas;	
-die;
+
 	// si no hay errores registramos al noticia
 		// inserto los datos de registro en la db
-		$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('$coordenadas','$teclas','$res')";
+		//$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('$coordenadas','$teclas','$res')";
+		$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('coorddfgdfgdfgdfgdfgenadas','tecladfgdfgdfgs','regfdgdfgs')";
 		$result = mysqli_query($dbConn,$query);
 		/*$query  = "INSERT INTO `data` (teclado) VALUES ('$teclas')";
 		$result = mysqli_query($dbConn,$query);
