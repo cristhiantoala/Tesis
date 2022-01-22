@@ -6,7 +6,6 @@ require_once 'conexion.php';
 
 // obtengo puntero de conexion con la db
 $dbConn = conectar();
-echo $dbConn;
 // agregamos una noticia en la db
 // si se envio el formulario
 
