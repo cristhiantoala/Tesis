@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $database = "tesis";
-$username = "root";
-$password = "";
+$username = "dagate";
+$password = "12345";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
 // Check connection
