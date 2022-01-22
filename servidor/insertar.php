@@ -9,13 +9,14 @@ $dbConn = conectar();
 // agregamos una noticia en la db
 // si se envio el formulario
 echo "hola1";
-die;
+
 	// definimos las variables
 $coordenadas 	= $_POST['coordenadas'];
 $teclas 		= $_POST['tecla'];
 $res 	= $_POST['respuestas'];
 	
-	
+echo $teclas;	
+die;
 	// si no hay errores registramos al noticia
 		// inserto los datos de registro en la db
 		$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('$coordenadas','$teclas','$res')";
