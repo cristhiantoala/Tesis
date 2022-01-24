@@ -7,6 +7,7 @@ function conectar () {
 	if (!$db_con) return false; 
 //	if (!mysqli_select_db (DB_NAME, $db_con)) return false;
 	if (!mysqli_select_db ($db_con, DB_NAME)) return false;
+	echo "conectó";
 	return $db_con; 
 
 }
