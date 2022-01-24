@@ -17,7 +17,7 @@ $res 	= $_POST['respuestas'];
 	
 	// si no hay errores registramos al noticia
 		// inserto los datos de registro en la db
-		$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('$coordenadas','$teclas','$res')";
+		$query  = "INSERT INTO `test` (mouse,teclado,emocion) VALUES ('$coordenadas','$teclas','$res')";
 		$result = mysqli_query($dbConn,$query);
 		header("Location: ../");
 		die;
