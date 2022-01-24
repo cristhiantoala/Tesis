@@ -483,7 +483,6 @@ function randonQuestion(){
 		}
 
 	}
-	console.log(arrayAleatorio)
 }
 randonQuestion()
 var questions = [
@@ -631,7 +630,7 @@ var questionTemplate = _.template(" \
 		  </li> \
 		<ul class='options'> \
         <li id='texto'> \
-		<span id='hover1' style='position:relative;font:bold 16px sans-serif'></span> \
+		<span id='hover1' style='position:relative;font:bold 16px sans-serif;color:red'></span> \
           <input type='radio' name='question[<%= index %>]' value='1' id='q<%= index %>o2' title='hola'> \
           <label id= 'Q1' for='q<%= index %>o2'><%= b %>Aceptar</label> \
         </li> \
@@ -647,7 +646,7 @@ var questionTemplate = _.template(" \
 		  </li> \
 		<ul class='options'> \
         <li id='texto2'> \
-		<span id='hover2' style='position:relative;font:bold 16px sans-serif'></span> \
+		<span id='hover2' style='position:relative;font:bold 16px sans-serif;color:red'></span> \
           <input type='radio' name='question[<%= index %>]' value='1' id='q<%= index %>o2' > \
           <label id= 'Q2' for='q<%= index %>o2'><%= b %>Aceptar</label> \
         </li> \
@@ -663,7 +662,7 @@ var questionTemplate = _.template(" \
 		  </li> \
 		<ul class='options'> \
         <li id='texto3'> \
-		<span id='hover3' style='position:relative;font:bold 16px sans-serif'></span> \
+		<span id='hover3' style='position:relative;font:bold 16px sans-serif;color:red'></span> \
           <input type='radio' name='question[<%= index %>]' value='1' id='q<%= index %>o2' > \
           <label id= 'Q3' for='q<%= index %>o2'><%= b %>Aceptar</label> \
         </li> \

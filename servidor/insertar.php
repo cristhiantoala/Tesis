@@ -19,10 +19,6 @@ $res 	= $_POST['respuestas'];
 		// inserto los datos de registro en la db
 		$query  = "INSERT INTO `data` (mouse,teclado,emocion) VALUES ('$coordenadas','$teclas','$res')";
 		$result = mysqli_query($dbConn,$query);
-		/*$query  = "INSERT INTO `data` (teclado) VALUES ('$teclas')";
-		$result = mysqli_query($dbConn,$query);
-		$query  = "INSERT INTO `data` (emocion) VALUES ('$res')";
-		$result = mysqli_query($dbConn,$query);*/
 		header("Location: ../");
 		die;
 	
