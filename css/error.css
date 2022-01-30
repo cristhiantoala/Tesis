@@ -30,8 +30,8 @@ body {
   margin: 0 auto;
   padding: 1em 1em;
   text-align: center;
-  background: url("../icons/flame.png") no-repeat top 11em  center/128px 128px,
-              transparent url("../icons/cellphone.png") no-repeat top 12em center/156px 156px;
+  background: url("https://raw.githubusercontent.com/cristhiantoala/Tesis/main/icons/flame.png?token=GHSAT0AAAAAABQ2JCHB4HGB2OGONQ6L46NIYPWBLEA") no-repeat top 11em  center/128px 128px,
+              transparent url("https://raw.githubusercontent.com/cristhiantoala/Tesis/main/icons/cellphone.png?token=GHSAT0AAAAAABQ2JCHBAN4SOEFWNICU7DRQYPWBLNA") no-repeat top 12em center/156px 156px;
 }
 
 h1, p:not(:last-of-type) { text-shadow: 0 0 6px #216f79; }
