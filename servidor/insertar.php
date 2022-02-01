@@ -18,7 +18,7 @@ $res 	= $_POST['respuestas'];
 
 		$query  = "INSERT INTO `test` (mouse,teclado,emocion) VALUES ('$coordenadas','$teclas','$res')";
 		$result = mysqli_query($dbConn,$query);
-		header("Location: ../");
+		header("Location: ../?again=1");
 		die;
 	
 		
